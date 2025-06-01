@@ -1,0 +1,51 @@
+
+  GET|HEAD        / ............................................................................................ login
+  GET|HEAD        dashboard ................................................................................ dashboard
+  GET|HEAD        error404 .................................................................................. error404
+  GET|HEAD        familytree ........................................... familytree.index › FamilyTreeController@index
+  GET|HEAD        familytree/user/{id_user} ...................................... FamilyTreeController@getUserDetails
+  GET|HEAD        familytree/user/{id} ............................. familytree.getUser › FamilyTreeController@getUser
+  POST            login ............................................................. login.action › AuthManager@login
+  POST            logout ................................................................. logout › AuthManager@logout
+  GET|HEAD        marga .......................................................... marga.index › MargaController@index
+  POST            marga .......................................................... marga.store › MargaController@store
+  GET|HEAD        marga/check ............................................................................ marga.check
+  GET|HEAD        marga/count ............................................................................ marga.count
+  GET|HEAD        marga/create ................................................. marga.create › MargaController@create
+  PUT             marga/{id_marga} ............................................. marga.update › MargaController@update
+  DELETE          marga/{id_marga} ........................................... marga.destroy › MargaController@destroy
+  GET|HEAD        marga/{id_marga}/edit ............................................ marga.edit › MargaController@edit
+  GET|HEAD        marga/{marga} .................................................... marga.show › MargaController@show
+  PUT|PATCH       marga/{marga} ................................................ marga.update › MargaController@update
+  DELETE          marga/{marga} .............................................. marga.destroy › MargaController@destroy
+  GET|HEAD        marga/{marga}/edit ............................................... marga.edit › MargaController@edit
+  GET|HEAD        pasangan ................................................. pasangan.index › PasanganController@index
+  POST            pasangan ................................................. pasangan.store › PasanganController@store
+  GET|HEAD        pasangan/create ........................................ pasangan.create › PasanganController@create
+  PUT             pasangan/{id_pasangan} ................................. pasangan.update › PasanganController@update
+  DELETE          pasangan/{id_pasangan} ............................... pasangan.destroy › PasanganController@destroy
+  GET|HEAD        pasangan/{id_pasangan}/edit ................................ pasangan.edit › PasanganController@edit
+  GET|HEAD        pasangan/{pasangan} ........................................ pasangan.show › PasanganController@show
+  PUT|PATCH       pasangan/{pasangan} .................................... pasangan.update › PasanganController@update
+  DELETE          pasangan/{pasangan} .................................. pasangan.destroy › PasanganController@destroy
+  GET|HEAD        pasangan/{pasangan}/edit ................................... pasangan.edit › PasanganController@edit
+  GET|HEAD        pohon-keluarga/{id_marga} .......................... pohon-keluarga.show › FamilyTreeController@show
+  GET|HEAD        register ........................................................... register › AuthManager@register
+  POST            register .............................................. register.action › AuthManager@registerAction
+  GET|HEAD        sanctum/csrf-cookie .............. sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+  GET|HEAD        silsilah ............................................. familytree.index › FamilyTreeController@index
+  GET|HEAD        storage/{path} ....................................................................... storage.local
+  GET|HEAD        up ................................................................................................. 
+  GET|HEAD        users ........................................................... users.index › UserController@index
+  POST            users ........................................................... users.store › UserController@store
+  GET|HEAD        users/create .................................................. users.create › UserController@create
+  PUT             users/{id_user} ............................................... users.update › UserController@update
+  DELETE          users/{id_user} ............................................. users.destroy › UserController@destroy
+  GET|HEAD        users/{id_user}/edit .............................................. users.edit › UserController@edit
+  GET|HEAD        users/{user} ...................................................... users.show › UserController@show
+  PUT|PATCH       users/{user} .................................................. users.update › UserController@update
+  DELETE          users/{user} ................................................ users.destroy › UserController@destroy
+  GET|HEAD        users/{user}/edit ................................................. users.edit › UserController@edit
+
+                                                                                                   Showing [47] routes
+
